@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;376;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css"/> 
+</head>
+<body>
+    <section class="greeting">
+        <h1 class="greeting-welcome">
+            <span>W</span>
+            <span>E</span>
+            <span>L</span>
+            <span>C</span>
+            <span>O</span>
+            <span>M</span>
+            <span>E</span>
+            <span>.</span>
+        </h1>
+        <p class="greeting-name">
+            <span class="g-n-h1">HELLO,</span>
+            MY NAME
+            <span class="g-n-h1">IS</span> 
+            ROBIN
+            <span class="g-n-h1">MAYCOL</span> 
+            ALVARADO
+            <span class="g-n-h1">LAZO.</span>
+        </p>
+        <p class="greeting-info">
+            <span class="g-n-h1">AND</span>
+            MY BIGGEST
+            <span class="g-n-h1">PASSION</span>
+            IN LIFE
+            <span class="g-n-h1">IS PROGRAMMING</span>
+        </p>
+        <a href="#myskills" class="see-mywork-link">SEE MY PROJECTS ▼</a>
+    </section>
+    <section class="about-me">
+
+        <h3 class="about-me-header">ABOUT ME!</h3>
+
+        <div class="aboutme-container">
+            <div class="aboutme-description">
+                <h3 class="aboutme-header-description">How did I start programming?</h3>
+                <p class="description-text">
+                    I started programming 3 years ago because I watched a video on youtube
+                    of a guy coding graphics and I was impressed how this guy was using mathematics
+                    and programming to create amazing things. And since I really like mathematics 
+                    I decided to start learning things related to programming.
+                </p>
+                <p class="description-text">
+                    Because I was very confused
+                    how to start I did some research and most people claimed that java was a good beginning.
+                    I start learning about java with a book called <a target="_blank" href="https://www.amazon.com/Java-Beginners-Eighth-Herbert-Schildt/dp/1260440214" class="book-link">Java: A Beginner's Guide</a> and then 
+                    <a target="_blank" href="https://www.amazon.com/Java-Complete-Reference-Eleventh/dp/1260440230" class="book-link">Java: The Complete Reference</a>. But in the process I changed my mind and then I preferred
+                    to learn things about web dev intead.
+                </p>
+            </div>
+            <div class="aboutme-languages">
+                <div class="language-column">
+                    <img class="language-icon" src="languages/c-sharp.png" />
+                    <img class="language-icon" src="languages/css-3.png" />
+                </div>
+                <div class="language-column">
+                    <img class="language-icon" src="languages/java.png" />
+                    <img class="language-icon" src="languages/html-5.png" />
+                </div>
+                <div class="language-column">
+                    <img class="language-icon" src="languages/sql-server.png" />
+                    <img class="language-icon" src="languages/js.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="myskills">
+        <h2 class="myskills-header">My Skills</h2>
+        <nav class="myskills-language">
+            <span class="language-selected"></span>
+            <a class="language-tab" data-tab-value="#tab_1">Java</a>
+            <a class="language-tab" data-tab-value="#tab_2">C#</a>
+            <a class="language-tab" data-tab-value="#tab_3">Js</a>
+        </nav>
+        <div class="tabs-container">
+            <div class="tab active" id="tab_1" data-tab-container>
+                <div class="project">
+                    <h3>Java Mailing System</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/javamaiil.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">This is a mailing system made in <span class="g-n-h1">Java</span> with <span class="g-n-h1">JavaMail</span> api using 
+                                <span class="g-n-h1">SMTP</span> and <span class="g-n-h1">POP3</span> and 
+                                <span class="g-n-h1">Swing</span> for the graphic interface which allow to 
+                                send emails and read them 
+                            </p>
+                            <a href="https://github.com/robinlazo/javamail" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>       
+                <div class="project">
+                    <h3>Java Img to Text</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/imgtotext.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">This is a program in <span class="g-n-h1">Java</span> with Swing that allows you to 
+                                convert any img to text. The main <span class="g-n-h1">Logic</span> is to convert 
+                                the img to <span class="g-n-h1">Grayscale</span> and then replace every pixel
+                                with its asigned <span class="g-n-h1">character</span> in the grayscale.
+                            </p>
+                            <a href="https://github.com/robinlazo/imgtotext" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>     
+                <div class="project">
+                    <h3>Zipping Files With Java</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/filezip.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">Program made with <span class="g-n-h1">Java</span> and <span class="g-n-h1">Swing</span>
+                                for the interface to zip files and complete directories the main logic is to zip individual files
+                                and use <span class="g-n-h1">recursion</span> in directories.
+                            </p>
+                            <a href="https://github.com/robinlazo/zipper" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="project">
+                    <h3>Unbeteable three in line</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/xogame.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">Program made with <span class="g-n-h1">Java</span> and <span class="g-n-h1">Swing</span> representing 
+                                one of the most played games on school but the difference is that the machine is impossible to 
+                                <span class="g-n-h1">beat</span>. Initially I made the game hard coded but 
+                                after a while I find out that there is an algorithm to make the IA better 
+                                called <span class="g-n-h1">"Min Max"</span>.
+                            </p>
+                            <a href="https://github.com/robinlazo/gamexo" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="project">
+                    <h3>Daily Horoscope</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/horoscope.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">Program made with <span class="g-n-h1">Java</span>, <span class="g-n-h1">Swing</span> 
+                                and <span class="g-n-h1">sameerkumar</span> api for the daily horoscope. Though I didn't use
+                                multithreading to bring the results and that causes the app to halt. 
+                            </p>
+                            <a href="https://github.com/robinlazo/horoscope" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="project">
+                    <h3>Times For Continent</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/globaltime.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">Program made with <span class="g-n-h1">Java</span> and <span class="g-n-h1">Swing</span> for 
+                                the purpose of tracking the time around the <span class="g-n-h1">World.</span> The program
+                                is simple but very useful.
+                            </p>
+                            <a href="https://github.com/robinlazo/continenttimes" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+            <div class="tab" id="tab_2" data-tab-container>
+                <div class="project">
+                    <h3>Recipes Web App</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/recipes.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information"> Web app made with <span class="g-n-h1">Asp Net Core Mvc</span>, 
+                                <span class="g-n-h1">SQL Server</span> for back end and <span class="g-n-h1">Bootstrap</span>
+                                with some little modification for the front. 
+                                This app is for recipes to learn how to make food 
+                                <span class="g-n-h1">step</span> by <span class="g-n-h1">step</span>. 
+                            </p>
+                            <a href="https://github.com/robinlazo/recipes" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Posts web app</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/webappsom.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information"> Web app made with <span class="g-n-h1">Asp Net Core Mvc</span>, 
+                                <span class="g-n-h1">SQL Server</span> for back end and <span class="g-n-h1">css</span>
+                                for the front. 
+                                This app is for posting and commenting about topics like
+                                <span class="g-n-h1">food, </span><span class="g-n-h1">sports</span> etc. 
+                            </p>
+                            <a href="https://github.com/robinlazo/postingwebapp" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Global Country Information</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/worldcountry.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">Web app made with <span class="g-n-h1">Asp Net Core Mvc</span>, 
+                                <span class="g-n-h1">SQL Server</span> for back end and <span class="g-n-h1">Bootstrap</span>
+                                for the front. This app show information about a <span class="g-n-h1">country</span>
+                                like <span class="g-n-h1">population</span>, <span class="g-n-h1">City</span> etc
+                            </p>
+                            <a href="https://github.com/robinlazo/infoglobal" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="tab" id="tab_3" data-tab-container>  
+                <div class="project">
+                    <h3>Countdown Challenge</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/countdown.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">This project was made with <span class="g-n-h1">Html</span>, Css and 
+                                <span class="g-n-h1">Javascript</span> and I saw it 
+                                in the website frontmentor(This page is dedicated to solve front end challenges). 
+                                You can see my own <span class="g-n-h1">solution</span>
+                                to this project in <span class="g-n-h1">Github</span>.
+                            </p>
+                            <a href="https://github.com/robinlazo/countdown" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Scissors, Rock, Paper Game</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/challenge.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">This project was made with <span class="g-n-h1">Html</span>, Css and 
+                                <span class="g-n-h1">Javascript</span> and I saw it 
+                                in the website frontmentor(This page is dedicated to solve front end challenges). 
+                                You can see my own <span class="g-n-h1">solution</span>
+                                to this project in <span class="g-n-h1">Github</span>.
+                            </p>
+                            <a href="https://github.com/robinlazo/scissorsrock" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h3>Classical Tetris Game</h3>
+                    <div class="moreabout-project">
+                        <div class="project-img-container">
+                            <img class="project-img" src="images/tetris.webp" />
+                        </div>
+                        <div class="project-information-container">
+                            <p class="project-information">This project was made with <span class="g-n-h1">Html</span>, Css and 
+                                <span class="g-n-h1">Javascript</span> and I saw it 
+                                in the website frontmentor(This page is dedicated to solve front end challenges). 
+                                You can see my own <span class="g-n-h1">solution</span>
+                                to this project in <span class="g-n-h1">Github</span>.
+                            </p>
+                            <a href="https://github.com/robinlazo/tetris" target="_blank" class="github-project">SEE PROJECT&nbsp;&nbsp;<img src="languages/github.png" alt="github"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
